@@ -1,0 +1,29 @@
+# Core ML/DL
+tensorflow==2.12.0
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+matplotlib==3.7.1
+seaborn==0.12.2
+joblib==1.3.2
+tqdm==4.65.0
+
+# Experiment tracking & versioning
+mlflow==2.2.2
+dvc==2.56.0
+python-box==6.0.2
+PyYAML==6.0
+types-PyYAML==6.0.12.10
+ensure==1.0.2
+
+# Web apps / API
+Flask==2.2.5
+Flask-Cors==3.0.10
+
+# Utilities
+gdown==4.7.1 # Google Drive downloader
+notebook==6.5.4
+
+# Local package install (editable mode)
+-e .
+
